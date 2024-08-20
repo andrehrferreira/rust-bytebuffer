@@ -1,0 +1,11 @@
+[package]
+name = "bytebuffer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Andre Ferreira <andrehrf@gmal.com>"]
+
+[dependencies]
+byteorder = "1.4"
+futures = "0.3" 
+tokio = { version = "1", features = ["full"] } 
+dashmap = "5.1"
